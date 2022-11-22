@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigatin_home">
+
+    <fragment
+        android:id="@+id/navigatin_home"
+        android:name="com.example.appli_velo.ui.home.HomeFragment"
+        android:label="Vélos"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.appli_velo.ui.notifications.NotificationsFragment"
+        android:label="Parkings"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

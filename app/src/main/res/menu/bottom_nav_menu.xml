@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigatin_home"
+        android:icon="@drawable/ic_baseline_directions_bike_24"
+        android:title="Vélos"/>
+
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_baseline_local_parking_24"
+        android:title="Parkings"/>
+
+</menu>
