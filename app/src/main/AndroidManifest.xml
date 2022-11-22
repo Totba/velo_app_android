@@ -17,6 +17,10 @@
         android:theme="@style/Theme.Appli_velo"
         tools:targetApi="31">
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
         <activity
             android:name=".ui.home.MapsActivity"
             android:exported="false"
